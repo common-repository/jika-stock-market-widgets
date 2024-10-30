@@ -1,0 +1,127 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.jika-widgets-inspector-controls {
+	padding: 0 10px;
+}
+
+.jika-widgets-async-select {
+	position: relative;
+}
+
+.elementor-control-async-select {
+	input {
+		border: 1px solid rgb(63, 68, 75) !important;
+		border-radius: 3px !important;
+		background-color: rgb(31, 33, 36) !important;
+	}
+
+	svg {
+		fill: rgb(213, 216, 220);
+	}
+
+	.jika-widgets-async-select-selected-item {
+		color: rgb(31, 33, 36) !important;
+
+		> button {
+			color: rgb(31, 33, 36) !important;
+		}
+	}
+}
+
+.jika-widgets-async-select-multi {
+	.jika-widgets-async-select-selected {
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+
+.jika-widgets-async-select-selected {
+	position: absolute;
+	top: 50%;
+	left: 15px;
+	transform: translateY(-50%);
+	z-index: 2;
+	max-width: calc(100% - 50px);
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+
+	> button {
+		cursor: pointer;
+		padding: 5px;
+		margin: 2px 5px;
+		border: none;
+		background: green;
+		color: white;
+		display: flex;
+		align-items: center;
+		font-weight: 700;
+
+		&:hover {
+			background: darkgreen;
+		}
+	}
+}
+
+.jika-widgets-async-select-selected-item {
+	padding: 0 0 0 5px;
+	margin: 2px 5px;
+	background: rgb(230, 230, 230);
+	border-radius: 5px;
+	white-space: pre-wrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	display: flex;
+
+	> div {
+		padding: 5px 0;
+	}
+
+	> button {
+		cursor: pointer;
+		padding: 5px;
+		margin: 0 0 0 2px;
+		border: none;
+		background: transparent;
+		display: flex;
+		align-items: center;
+
+		&:hover {
+			background-color: lightcoral;
+		}
+	}
+}
+
+.jika-widgets-async-select-options {
+	width: 200px;
+	display: flex;
+	flex-direction: column;
+	color: black;
+}
+
+.jika-widgets-async-select-options > h4 {
+	background-color: white;
+	position: sticky;
+	top: -8px;
+	left: 0;
+	margin: 0;
+	padding: 10px 0;
+}
+
+.jika-widgets-async-select-option {
+	padding: 10px 5px;
+	display: flex;
+	border: none;
+	background: transparent;
+	text-align: left;
+	color: black;
+	cursor: pointer;
+
+	&:hover {
+		background: rgb(230, 230, 230);
+	}
+}

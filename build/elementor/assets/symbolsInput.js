@@ -1,0 +1,1 @@
+handleStoreCheck("companyList").then((e=>{registerAsyncSelect({loadOptions:e=>handleFetch(`/company_list/${e}/not-etf`).then((e=>e.result.company_list.map((e=>({key:e.symbol,name:`${e.symbol} - ${e.company_name}`}))))),onChange:(e,n)=>{e.newValue=n,e.saveValue()},isMulti:!0,defaultOptions:e},"symbols-input","BaseMultiple")}));

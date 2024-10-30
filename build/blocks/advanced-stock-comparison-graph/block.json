@@ -1,0 +1,34 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "jika-blocks/advanced-stock-comparison-graph",
+  "version": "0.1.0",
+  "title": "Advanced Stock Comparison Graph",
+  "category": "widgets",
+  "icon": "gutenberg-jika-widgets-icon gutenberg-jika-widgets-advanced-stock-comparison-graph",
+  "description": "Our stock comparison charts allow you to compare any metric for multiple stocks side by side. With our easy-to-use chart builder, you can select the stocks and metrics you want to compare. Whether you're comparing stocks from the same industry or across different sectors, our charts provide a comprehensive view of stock performance.",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "src": {
+      "type": "string"
+    },
+    "height": {
+      "type": "integer"
+    },
+    "auto": {
+      "type": "boolean",
+      "default": true
+    },
+    "background": {
+      "type": "string",
+      "default": "#FFFFFF"
+    }
+  },
+  "textdomain": "jika-widgets",
+  "editorScript": "file:../../index.js",
+  "editorStyle": "file:../../index.css",
+  "style": "file:../../style-index.css"
+}

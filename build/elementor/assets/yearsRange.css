@@ -1,0 +1,5 @@
+.elementor-control-type-years-range
+	.elementor-control-field
+	> div:first-of-type {
+	margin-right: 10px;
+}

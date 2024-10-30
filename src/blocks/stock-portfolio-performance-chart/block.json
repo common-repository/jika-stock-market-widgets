@@ -1,0 +1,34 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "jika-blocks/stock-portfolio-performance-chart",
+	"version": "0.1.0",
+	"title": "Stock Portfolio Performance Chart",
+	"category": "widgets",
+	"icon": "gutenberg-jika-widgets-icon gutenberg-jika-widgets-stock-portfolio-performance-chart",
+	"description": "With our stock portfolio widgets, you can easily share and embed your investment portfolio on your website, substack, notion dashboard or blog. Our widgets update in real-time, so your audience can see the latest changes to your portfolio as they happen. You will first need an account in Jika.io with a connected portfolio in order to use this widget.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"src": {
+			"type": "string"
+		},
+		"height": {
+			"type": "integer"
+		},
+		"auto": {
+			"type": "boolean",
+			"default": true
+		},
+		"background": {
+			"type": "string",
+			"default": "#FFFFFF"
+		}
+	},
+	"textdomain": "jika-widgets",
+	"editorScript": "file:../../index.js",
+	"editorStyle": "file:../../index.css",
+	"style": "file:../../style-index.css"
+}

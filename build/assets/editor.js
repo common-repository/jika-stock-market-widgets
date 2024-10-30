@@ -1,0 +1,1 @@
+setInterval((()=>{jQuery.post(jika_widgets_editor_obj.ajax_url,jika_widgets_editor_obj,(e=>{e&&(jika_widgets_editor_obj.api_key=e)}))}),27e4);

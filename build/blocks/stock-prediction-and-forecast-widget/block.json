@@ -1,0 +1,34 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "jika-blocks/stock-prediction-and-forecast-widget",
+  "version": "0.1.0",
+  "title": "Stock Prediction and Forecast Widget",
+  "category": "widgets",
+  "icon": "gutenberg-jika-widgets-icon gutenberg-jika-widgets-stock-prediction-and-forecast-widget",
+  "description": "Our stock predictions and forecasts widget is using the most updated analysts rating data to provide predictions for stock prices. By embedding our widgets on your site, you can provide your audience with valuable insights into the stock market and help them make informed investment decisions.",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "src": {
+      "type": "string"
+    },
+    "height": {
+      "type": "integer"
+    },
+    "auto": {
+      "type": "boolean",
+      "default": true
+    },
+    "background": {
+      "type": "string",
+      "default": "#FFFFFF"
+    }
+  },
+  "textdomain": "jika-widgets",
+  "editorScript": "file:../../index.js",
+  "editorStyle": "file:../../index.css",
+  "style": "file:../../style-index.css"
+}

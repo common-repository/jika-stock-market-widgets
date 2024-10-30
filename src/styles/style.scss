@@ -1,0 +1,42 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.jika-widgets-iframe {
+	box-sizing: border-box;
+}
+
+.dashicons-gutenberg-jika-widgets-icon {
+	display: block;
+	height: 24px;
+	width: 24px;
+	margin: 0 auto;
+	background-size: 24px 24px;
+	background-repeat: no-repeat;
+	path {
+		fill: rgb(30, 30, 30);
+	}
+}
+
+.gutenberg-jika-widgets-real-time-stock-price-chart {
+	background-image: url(../assets/real-time-stock-price-chart.svg);
+}
+
+.gutenberg-jika-widgets-advanced-stock-comparison-graph {
+	background-image: url(../assets/advanced-stock-comparison-graph.svg);
+}
+
+.gutenberg-jika-widgets-company-financial-metrics-table {
+	background-image: url(../assets/company-financial-metrics-table.svg);
+}
+
+.gutenberg-jika-widgets-stock-portfolio-performance-chart {
+	background-image: url(../assets/stock-portfolio-performance-chart.svg);
+}
+
+.gutenberg-jika-widgets-stock-prediction-and-forecast-widget {
+	background-image: url(../assets/stock-prediction-and-forecast-widget.svg);
+}

@@ -1,0 +1,28 @@
+{
+	"name": "jika-widgets",
+	"version": "1.0.0",
+	"description": "Stock Market Widgets for Word-Press By Jika.io",
+	"author": "jika.io",
+	"license": "GPL-2.0-or-later",
+	"homepage": "https://www.jika.io/widgets",
+	"main": "build/index.js",
+	"scripts": {
+		"zip": "wp-scripts plugin-zip",
+		"build": "wp-scripts build --webpack-copy-php",
+		"build-zip": "npm run build && node scripts/build.js",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start --webpack-copy-php"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^27.1.0",
+		"archiver": "^6.0.1"
+	},
+	"dependencies": {
+		"@wordpress/components": "^25.16.0",
+		"@wordpress/data": "^9.21.0"
+	}
+}

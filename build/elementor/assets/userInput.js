@@ -1,0 +1,1 @@
+handleStoreCheck("leaderboardMembers").then((e=>{registerAsyncSelect({loadOptions:e=>handleFetch(`/users_list/${e}?is_verified=portfolio`).then((e=>e.result.users_list.map((e=>({key:e.user_name,name:e.user_name}))))),onChange:(e,s)=>{e.newValue=s.key,e.saveValue()},defaultOptions:e},"user-input")}));

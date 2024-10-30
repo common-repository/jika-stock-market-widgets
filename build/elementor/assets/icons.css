@@ -1,0 +1,28 @@
+.elementor-jika-widgets-icon {
+	display: block;
+	height: 28px;
+	width: 28px;
+	margin: 0 auto;
+	background-size: 28px 28px;
+	background-repeat: no-repeat;
+}
+
+.elementor-jika-widgets-real-time-stock-price-chart {
+	background-image: url(real-time-stock-price-chart.svg);
+}
+
+.elementor-jika-widgets-advanced-stock-comparison-graph {
+	background-image: url(advanced-stock-comparison-graph.svg);
+}
+
+.elementor-jika-widgets-company-financial-metrics-table {
+	background-image: url(company-financial-metrics-table.svg);
+}
+
+.elementor-jika-widgets-stock-portfolio-performance-chart {
+	background-image: url(stock-portfolio-performance-chart.svg);
+}
+
+.elementor-jika-widgets-stock-prediction-and-forecast-widget {
+	background-image: url(stock-prediction-and-forecast-widget.svg);
+}
